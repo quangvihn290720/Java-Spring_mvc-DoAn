@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+
+	<decorator name="home" page="home.jsp">
+		<pattern>/trang-chu*</pattern>
+	</decorator>
+
+	<decorator name="product" page="web.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/quan-tri*</pattern>
+	</decorator>
+
+	<decorator name="confirmcheckout" page="checkout.jsp">
+		<pattern>/checkout/thankyou/*</pattern>
+	</decorator>
+	<decorator name="login-register" page="login-register.jsp">
+		<pattern>/dang-ky</pattern>
+	</decorator>
+	<decorator name="login-register" page="login-register.jsp">
+		<pattern>/quen-mat-khau</pattern>
+	</decorator>
+	<decorator name="login-register" page="login-register.jsp">
+		<pattern>/doi-mat-khau</pattern>
+	</decorator>
+	<decorator name="login-register" page="login-register.jsp">
+		<pattern>/dang-nhap</pattern>
+	</decorator>
+	<decorator name="libraries" page="">
+		<pattern>/libraries*</pattern>
+	</decorator>
+	<decorator name="baotri" page="">
+		<pattern>/bao-tri*</pattern>
+	</decorator>
+	<decorator name="checkout" page="checkout.jsp">
+		<pattern>/checkout</pattern>
+	</decorator>
+	<decorator name="sendmail" page="">
+		<pattern>/gio-hang/sendmail*</pattern>
+	</decorator>
+</decorators>
